@@ -1,0 +1,77 @@
+export const PHONE_NUMBER = "+27 71 933 1311"
+export const PHONE_LINK = "tel:+27719331311"
+export const WHATSAPP_LINK = "https://wa.me/27719331311?text=Hi%20Mamello%20Projects%2C%20I%27d%20like%20a%20quote."
+
+export const AREAS = [
+  "Vaal Marina",
+  "Vereeniging",
+  "Vanderbijlpark",
+  "Sasolburg",
+  "Three Rivers",
+  "Meyerton",
+]
+
+export const CONSTRUCTION_SERVICES = [
+  "New buildings",
+  "Renovations",
+  "Roofing",
+  "Plastering",
+  "Tiling",
+  "Painting",
+  "Paving",
+]
+
+export const WELDING_SERVICES = [
+  "Gates",
+  "Carports",
+  "Sheds",
+  "Palisades",
+  "Fencing",
+  "Aluminium doors & windows",
+  "Motor gate installations",
+]
+
+export const SUPPLY_SERVICES = [
+  "Gas refill & exchange",
+  "Charcoal",
+  "Wooden poles",
+  "Tree felling",
+  "Rubble removal",
+]
+
+export const GALLERY = [
+  { src: "/images/project-house.jpg", alt: "Completed double-storey new build with plastered finish" },
+  { src: "/images/project-welding.jpg", alt: "Aluminium driveway gate installation" },
+  { src: "/images/project-paving.jpg", alt: "Circular brick paving walkway" },
+  { src: "/images/project-roofing.jpg", alt: "New tiled roof construction" },
+  { src: "/images/project-supply.jpg", alt: "Wooden poles ready for delivery" },
+  { src: "/images/project-treefelling.jpg", alt: "Tree felling and rubble removal" },
+  { src: "/images/project-brickwork.jpg", alt: "Face-brick structure with concrete slab roof" },
+  { src: "/images/project-lapa.jpg", alt: "Brick lapa with steel roof structure in progress" },
+  { src: "/images/project-doors.jpg", alt: "Steel doors and hardware supply" },
+]
+
+export const TESTIMONIALS = [
+  {
+    name: "Thabo M.",
+    area: "Vanderbijlpark",
+    text: "Mamello installed our driveway gate and it looks great. Neat welding, fair price, and they cleaned up after themselves.",
+  },
+  {
+    name: "Nomsa K.",
+    area: "Vereeniging",
+    text: "Quick WhatsApp reply and they came the same week to quote. Tree felling and rubble removal was done in one day.",
+  },
+  {
+    name: "Pieter v.d. Merwe",
+    area: "Sasolburg",
+    text: "Used them for roofing repairs and a new carport. Honest guys, no nonsense. Will definitely use them again.",
+  },
+]
+
+export const STATS = [
+  { value: "12+", label: "Years on the tools" },
+  { value: "500+", label: "Projects completed" },
+  { value: "6", label: "Towns served" },
+  { value: "24h", label: "Quote turnaround" },
+]
